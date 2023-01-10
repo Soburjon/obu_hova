@@ -1,0 +1,50 @@
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+uz= KeyboardButton('UZ 🇺🇿')
+en= KeyboardButton('ENG 🇺🇸')
+ru= KeyboardButton('RU 🇷🇺')
+len = ReplyKeyboardMarkup(resize_keyboard=True).add(uz, en, ru)
+
+startuz= KeyboardButton('🌤 Obu-havo')
+setuz= KeyboardButton('⚙️️ Sozlamalar')
+asmenuuz = ReplyKeyboardMarkup(resize_keyboard=True).add(startuz, setuz)
+
+starten= KeyboardButton('🌤 Weather')
+seten= KeyboardButton('⚙️ Settings')
+asmenuen = ReplyKeyboardMarkup(resize_keyboard=True).add(starten, seten)
+
+startru= KeyboardButton('🌤 Погода')
+setru= KeyboardButton('⚙️ Настройки')
+asmenuru = ReplyKeyboardMarkup(resize_keyboard=True).add(startru, setru)
+
+Btpuz=KeyboardButton('📅 Bugungi obu-havo')
+B24tpuz=KeyboardButton('📆 Bugungi(24 soat) obu-havo')
+Utmuz=KeyboardButton('🗓 3 kunga malumot')
+backuz= KeyboardButton('⬅️ Orqaga')
+tpmenuuz = ReplyKeyboardMarkup(resize_keyboard=True).add(Btpuz).add(B24tpuz).add(Utmuz).add(backuz)
+
+Btpen=KeyboardButton("📅 Today's weather")
+B24tpen=KeyboardButton("📆 Today's(24 h) weather")
+Utmen=KeyboardButton('🗓 3 day reference')
+backen= KeyboardButton('⬅️ Back')
+tpmenuen = ReplyKeyboardMarkup(resize_keyboard=True).add(Btpen).add(B24tpen).add(Utmen).add(backen)
+
+Btpru=KeyboardButton("📅 Сегодня погода")
+B24tpru=KeyboardButton("📆 Сегодня(24 ч) погода")
+Utmru=KeyboardButton('🗓 Информация за 3 дня')
+backru= KeyboardButton('⬅️ Назад')
+tpmenuru = ReplyKeyboardMarkup(resize_keyboard=True).add(Btpru).add(B24tpru).add(Utmru).add(backru)
+ReplyKeyboardMarkup()
+lanuz=KeyboardButton("🅰️ Til")
+cityuz=KeyboardButton("🏙 Shahar")
+setmenuuz=ReplyKeyboardMarkup(resize_keyboard=True).add(lanuz, cityuz, backuz)
+
+lanen=KeyboardButton("🅰️ Language")
+cityen=KeyboardButton("🏙 City")
+setmenuen=ReplyKeyboardMarkup(resize_keyboard=True).add(lanen, cityen, backen)
+
+lanru=KeyboardButton("🅰️ Язык")
+cityru=KeyboardButton("🏙 Город")
+setmenuru=ReplyKeyboardMarkup(resize_keyboard=True).add(lanru, cityru, backru)
+backmanuuz=ReplyKeyboardMarkup(resize_keyboard=True).add(backuz)
+backmanuen=ReplyKeyboardMarkup(resize_keyboard=True).add(backen)
+backmanuru=ReplyKeyboardMarkup(resize_keyboard=True).add(backru)
