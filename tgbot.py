@@ -8,7 +8,7 @@ from dictfunc import tekshirish, readDB, writeNew
 import menu
 from pagoda import pogoda, city, tr
 from doing import doing
-API_TOKEN = '5014204446:AAEiokPR30F_iHymsSNewQ7da-JMtonmlSo'
+API_TOKEN = '955380455:AAFN1PnPdul5u5kKlcbJpYwYG511tp79VgI'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
